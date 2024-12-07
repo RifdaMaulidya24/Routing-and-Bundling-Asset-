@@ -1,0 +1,77 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+#search-input {
+    display: none;
+    max-width: 200px;
+    }
+
+.container-fluid{
+    font-weight: 500; 
+    }
+
+#language{
+    margin-left: 30px;
+    }
+
+#pusatBantuan{
+    margin-left: 30px;
+    }
+
+#navbarNavDropdown{
+    font-size: 16px;
+    color: black;
+    }
+    
+body {
+    padding-top: 10px;
+    }
+
+
+.text-overlay {
+    position: absolute; 
+    top: 40%; 
+    left: 10%;        
+    color: white; 
+    font-size: 5rem; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    }
+
+.tentang-kami-container {
+    background-color: #2F4F4F; 
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    }
+
+.unduh-aplikasi-container {
+    background-color: hsl(120, 58%, 36%); 
+    color: black;
+    width: 100%;
+    padding: 10px 0;
+    }
+
+#tentang-kami-container{
+    margin-left: 80px;
+    font-size: 18px;
+    color: white;
+    }
+
+#unduh-aplikasi-container{
+    margin-left: 80px;
+    font-size: 18px;
+    color: white;
+    }
+
+
+    .navbar {
+    padding: 10px 0;
+    }
+
